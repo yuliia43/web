@@ -1,0 +1,23 @@
+body{
+    background-image: url("fon2.jpg");
+}
+table{
+     width: 100%;
+}
+td{
+    text-align: center;
+    vertical-align: center;
+}
+h1{
+     text-align: center; 
+}
+h2{
+     text-align: center; 
+}
+ul {
+    list-style-image: url('lapa.png');
+}
+p{
+      text-align: center;
+      font-size: 4px; 
+}
