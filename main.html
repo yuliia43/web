@@ -1,0 +1,49 @@
+<html>
+<head>
+<style>
+table{
+	width: 500px;
+	table-layout: fixed;
+	background: rgba(240, 248, 255,0.7);
+}
+</style>
+</head>
+
+<body background="bg.jpg">
+	<script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+				<h2> Table 1 </h2>
+					<?php 	
+					$rows = 6;
+					$cols = 6;
+					require 'tbl1.php';
+					?>
+					<form action="build1.php" method="post">
+						<?php require 'form.php';?>
+
+	<h2> Table 2 </h2>
+	<?php 
+		$cols = 7;
+		$rows = 8;
+		require 'tbl2.php';
+		?>
+		<form action="build2.php" method="post">
+						<?php require 'form.php';?>
+	<h2> Table 3 </h2>
+	<?php
+		$cols = 7;
+		$rows = 5; 
+		require 'tbl3.php';?>
+		<form action="build3.php" method="post">
+						<?php require 'form.php';?>
+	<h2> Table 4 </h2>
+	<?php
+		$cols = 7;
+		$rows = 8;
+		require 'tbl4.php';?>		
+		<form action="build4.php" method="post">
+						<?php require 'form.php';?>
+  <script src="jquery.js"></script>
+</body>
+
+</html>
